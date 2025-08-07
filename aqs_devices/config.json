@@ -13,7 +13,6 @@
   "ingress_port": 5000,
   "map": ["config:rw"],
   "host_network": true,
-  "image": "logo.png",
   "ports": {
     "5000/tcp": 5000
   }
