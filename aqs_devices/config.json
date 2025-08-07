@@ -1,8 +1,8 @@
 {
-  "name": "AQS Devices",
+  "name": "Aqua-Scope Devices",
   "version": "1.0",
   "slug": "aqs_devices",
-  "description": "Empfängt JSON Webhooks von IP-Geräten und meldet Werte per MQTT",
+  "description": "Support for Aqua-Scope Sensors and Actuators. Requires MQTT Service in Home-Assistant",
   "startup": "application",
   "boot": "auto",
   "homeassistant": "2021.12.0",
@@ -13,7 +13,7 @@
   "ingress_port": 5000,
   "map": ["config:rw"],
   "host_network": true,
-  "image": "local/ip_sensor_webhook",
+  "image": "logo.png",
   "ports": {
     "5000/tcp": 5000
   }

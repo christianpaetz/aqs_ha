@@ -1,7 +1,7 @@
 {
-  "name": "IP Sensor Webhook",
+  "name": "AQS Devices",
   "version": "1.0",
-  "slug": "ip_sensor_webhook",
+  "slug": "aqs_devices",
   "description": "Empfängt JSON Webhooks von IP-Geräten und meldet Werte per MQTT",
   "startup": "application",
   "boot": "auto",
